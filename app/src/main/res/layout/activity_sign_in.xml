@@ -17,6 +17,7 @@
         android:layout_marginBottom="24dp"/>
 
     <EditText
+        android:id="@+id/usernameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username"
@@ -24,6 +25,7 @@
         android:background="@android:drawable/edit_text"/>
 
     <EditText
+        android:id="@+id/passwordEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
@@ -33,6 +35,7 @@
         android:layout_marginTop="12dp"/>
 
     <Button
+        android:id="@+id/signInButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign In"
@@ -54,6 +57,7 @@
         android:textColor="@android:color/darker_gray"/>
 
     <Button
+        android:id="@+id/signUpButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"

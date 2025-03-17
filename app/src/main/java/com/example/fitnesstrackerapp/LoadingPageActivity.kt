@@ -16,11 +16,11 @@ class LoadingPageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_loading_page)
 
-        // Delay for 3 seconds before moving to another activity
+        // Show splash screen for 3 seconds before going to 'sign in' page
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, SignInActivity::class.java)
             startActivity(intent)
-            finish()
-        }, 3000)
+            finish() // Prevent user from going back to Splash Screen
+        }, 3000) // delay for 3000ms = 3 seconds
     }
 }

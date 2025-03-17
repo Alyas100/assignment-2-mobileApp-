@@ -31,14 +31,14 @@
         android:id="@+id/user_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="User Info"
+        android:text="Syed Afifsudin"
         android:textSize="18sp"
         android:textColor="#808080"
         android:layout_marginTop="16dp"/>
 
     <!-- Edit Profile Button -->
     <Button
-        android:id="@+id/edit_profile_button"
+        android:id="@+id/editProfileButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Edit Profile"
@@ -46,7 +46,7 @@
 
     <!-- Back Button -->
     <Button
-        android:id="@+id/back_button"
+        android:id="@+id/backButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back"
