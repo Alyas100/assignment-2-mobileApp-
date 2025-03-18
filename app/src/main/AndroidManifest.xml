@@ -13,7 +13,12 @@
         android:theme="@style/Theme.FitnessTrackerApp"
         tools:targetApi="31">
 
-<!--        set loading page (splash screen)-->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+
+        <!--        set loading page (splash screen)-->
         <activity android:name=".LoadingPageActivity"
             android:exported="true">
             <intent-filter>
